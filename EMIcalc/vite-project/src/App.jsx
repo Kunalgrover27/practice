@@ -13,6 +13,8 @@ function App() {
   const handlechange=(e) =>{
     let id=e.target.id;
     let value= parseInt(e.target.value)
+    
+    let divya="chutiya";
 
     if(id ==='principal'){
       setCount(value)
@@ -33,7 +35,7 @@ function App() {
     setAns((count*Amt)/time)
   
   }, [count,Amt,time])
-  
+
   return (
     <>
      <p>Principal</p>
