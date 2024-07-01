@@ -35,5 +35,10 @@ const final=()=>{
     </>
   )
 }
+setTimeout(() => {
+  for(let i=0;i<5;i++){
+    console.log(i)
+  }
+}, 1000);
 
 export default App
