@@ -1,0 +1,24 @@
+/* *{
+    margin:0;
+    padding: 0;
+    /* box-sizing: border-box; */
+*/
+#box{
+    background-color: blue;
+    width: fit-content;
+    /* display: flex;
+    justify-content: center;
+    text-align: center;
+     */
+
+}
+h1{
+    text-align: left;
+    /* text-transform: capitalize;
+    text-align: left;
+    color: chartreuse; */
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
